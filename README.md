@@ -20,13 +20,13 @@ local
 ```javascript
 var myApp = angular.module('app', ['ngcountdownTimer']);
 
-<strong ngCountdown end-date="1,9,2015" units="days|hours|minutes|seconds"></strong>
-<span ngCountdown end-date="2,9,2015" units="weeks"></strong>
-<strong ngCountdown end-date="01-11-2016" lang="TR" units="days|hours|minutes|seconds"></strong>
+<strong ng-countdown end-date="1,9,2015" units="days|hours|minutes|seconds"></strong>
+<span ng-countdown end-date="2,9,2015" units="weeks"></strong>
+<strong ng-countdown end-date="01-11-2016" lang="TR" units="days|hours|minutes|seconds"></strong>
 ```
 ## Field Schema
 
-`ngCountdown`: initializes directive
+`ng-countdown`: initializes directive
 
 `end-date`: the end date. _takes any format js Date() allows_
 
