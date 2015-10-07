@@ -18,10 +18,10 @@ local
 
 ## Usage
 ```javascript
-var myApp = angular.module('app', ['ngcountdownTimer']);
+var myApp = angular.module('app', ['countdownTimer']);
 
-<strong countdown end-date="1,9,2015" units="days|hours|minutes|seconds"></strong>
-<span countdown end-date="2,9,2015" units="weeks"></strong>
+<strong countdown end-date="1-9-2015" units="days|hours|minutes|seconds"></strong>
+<span countdown end-date="2-9-2015" units="weeks"></strong>
 <strong countdown end-date="01-11-2016" lang="TR" units="days|hours|minutes|seconds"></strong>
 ```
 ## Field Schema
