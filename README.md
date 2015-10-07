@@ -18,15 +18,15 @@ local
 
 ## Usage
 ```javascript
-var myApp = angular.module('app', ['ngcountdownTimer']);
+var myApp = angular.module('app', ['countdownTimer']);
 
-<strong ng-countdown end-date="1,9,2015" units="days|hours|minutes|seconds"></strong>
-<span ng-countdown end-date="2,9,2015" units="weeks"></strong>
-<strong ng-countdown end-date="01-11-2016" lang="TR" units="days|hours|minutes|seconds"></strong>
+<strong countdown end-date="1,9,2015" units="days|hours|minutes|seconds"></strong>
+<span countdown end-date="2,9,2015" units="weeks"></strong>
+<strong countdown end-date="01-11-2016" lang="TR" units="days|hours|minutes|seconds"></strong>
 ```
 ## Field Schema
 
-`ng-countdown`: initializes directive
+`countdown`: initializes directive
 
 `end-date`: the end date. _takes any format js Date() allows_
 
