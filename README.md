@@ -2,14 +2,16 @@
 a simple countdown angular directive with multiple language. It is improvement of the [simple-inline-countdown-directive](https://github.com/globaljake/simple-inline-countdown-directive)
 
 
-inclue script in html file
-
-
 ## Installation
 
 ### Bower
 
 `bower install angular-simple-countdown`
+
+```html
+local
+<script src="bower_components/angular-simple-countdown/lib/countdownTimer.min.js"></script>
+```
 
 ```html
 local
