@@ -9,7 +9,7 @@ inclue script in html file
 
 ### Bower
 
-`bower install angular-autoFields-bootstrap`
+`bower install angular-simple-countdown`
 
 ```html
 local
